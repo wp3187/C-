@@ -38,6 +38,7 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
+
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/sharksharksharkshark/Hub/main/1lolll.txt"))()
 local Window = OrionLib:MakeWindow({Name = "C脚本", HidePremium = false, SaveConfig = true,IntroText = "C脚本", ConfigFolder = "C脚本"})
 
