@@ -3467,10 +3467,3 @@ Tab:AddButton({
      setclipboard("814705174")
   	end
 })
-
-Tab:AddButton({
-	Name = "好玩的",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAP1ayer/PlayerHubOther/main/PlayerHubLoader.lua"))()
-  end
-})
