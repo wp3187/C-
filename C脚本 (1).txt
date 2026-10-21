@@ -8,7 +8,7 @@ local Start = Instance.new("TextButton")
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-UI.Name = "AX密钥检查"
+UI.Name = "C脚本密钥检查"
 UI.Parent = ScreenGui
 UI.Active = true
 UI.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -67,7 +67,7 @@ Start.TextSize = 10
 Start.TextWrapped = true
 
 Start.MouseButton1Click:Connect(function()
-    if Key.Text == "AWP-NBL3187" then
+    if Key.Text == "WP-3187NB" then
         ScreenGui:Destroy()
         这里是你的脚本
     else
@@ -153,7 +153,7 @@ local about = UITab2:section("『公告』",true)
 about:Label("感谢所有支持C脚本的人")
 about:Label("已修复完bug")
 about:Label("✔️")
-about:Label("       ")
+about:Label("欢迎大家游玩")
 about:Label("感谢大家支持C脚本")
 about:Label("十分感谢")
 
